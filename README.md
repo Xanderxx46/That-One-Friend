@@ -26,3 +26,8 @@ CLIENT_ID={CLIENT-ID}
 ```bash
 node index.js
 ```
+
+#### If you wanna use pm2:
+```bash
+pm2 start pm2.json
+```
