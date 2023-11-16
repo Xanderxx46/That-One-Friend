@@ -6,7 +6,7 @@ My submission for the JT-99 Discord Bot Competition. Wish me luck.
 #### In your terminal run:
 ```bash
 git clone https://github.com/Xanderxx69/jt99botcomp
-cd ht99botcomp
+cd jt99botcomp
 ```
 
 #### Install requirements:
