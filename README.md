@@ -24,6 +24,7 @@ CLIENT_ID={CLIENT-ID}
 
 #### Then do:
 ```bash
+node slash.js
 node index.js
 ```
 
