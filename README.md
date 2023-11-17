@@ -10,6 +10,7 @@ cd jt99botcomp
 ```
 
 #### Install requirements:
+Inside the bots folder run:
 ```bash
 npm install
 ```
@@ -29,6 +30,7 @@ node index.js
 ```
 
 #### If you wanna use pm2:
+Inside the bots folder run:
 ```bash
 pm2 start pm2.json
 ```
