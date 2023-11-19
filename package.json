@@ -1,6 +1,5 @@
 {
-"name": "That-One-Friend",
-"main": "src/index.js",
+"name": "That-One-Friend"
     "dependencies": {
         "discord.js": "^14.6.0",
         "dotenv": "^16.0.3"
