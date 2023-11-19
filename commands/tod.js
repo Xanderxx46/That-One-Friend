@@ -1,6 +1,5 @@
 var { SlashCommandBuilder } = require('discord.js');
-const { default: fetch } = import('node-fetch');
-const { EmbedBuilder } = require('discord.js')
+const { EmbedBuilder } = require('discord.js');
 
 let truthnumber = Math.floor(Math.random() * 10) + 1;
 let darenumber = Math.floor(Math.random() * 10) + 1;
