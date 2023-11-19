@@ -19,8 +19,8 @@ npm install
 
 Make a file in your bots folder named .env, inside of it put:
 ```bash
-TOKEN={TOKEN}
-CLIENT_ID={CLIENT-ID}
+TOKEN={YOUR_BOTS_TOKEN}
+CLIENT_ID={YOUR_BOTS_APPLICATION_ID}
 ```
 
 #### Then do:
