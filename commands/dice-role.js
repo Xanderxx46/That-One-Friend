@@ -13,7 +13,7 @@ module.exports = {
                 .addChoices(
                     { name: '1 Dice', value: '1' },
                     { name: '2 Die', value: '2' },
-					{ name: '3 Die', value: '3' },
+		    { name: '3 Die', value: '3' },
                 )),
 	async execute(interaction) {
 		let dice1 = Math.floor(Math.random() * 6) + 1;
