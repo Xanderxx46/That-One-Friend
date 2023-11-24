@@ -1,7 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
 
-let number = Math.floor(Math.random() * 10) + 1;
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('hug')
@@ -15,7 +14,7 @@ module.exports = {
 		const userId = user?.id
 		const commandUser = interaction.user
 		const commandUserId = commandUser?.id
-
+		let number = Math.floor(Math.random() * 10) + 1;
 		// Hugs!
 		const hug1 = new EmbedBuilder()
 		.setTitle('Get hugged!')
