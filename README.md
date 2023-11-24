@@ -1,8 +1,8 @@
-# JT-99 Discord Bot Competition
-My submission for the JT-99 Discord Bot Competition. Wish me luck.
+# Why the bot was made:
+This bot was made for the JT-99 Discord Bot Competition. Wish me luck. Hosted version [can be found here](https://discord.com/api/oauth2/authorize?client_id=1173829509066276944&permissions=274877959168&scope=bot%20applications.commands). Use `/help` to see all the commands. 
 
 
-# Installation:
+# You can also host your version here:
 #### In your terminal run:
 ```bash
 git clone https://github.com/Xanderxx69/jt99botcomp
@@ -17,7 +17,7 @@ npm install
 
 #### Setting up the .env:
 
-Make a file in your bots folder named .env, inside of it put:
+Copy the .env.example and fill in the values needed:
 ```bash
 TOKEN={YOUR_BOTS_TOKEN}
 CLIENT_ID={YOUR_BOTS_APPLICATION_ID}
