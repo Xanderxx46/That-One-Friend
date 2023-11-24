@@ -15,7 +15,7 @@ module.exports = {
 		const userId = user?.id
 		const commandUser = interaction.user
 		const commandUserId = commandUser?.id
-
+		let number = Math.floor(Math.random() * 10) + 1;
 		// Kisses
 		const kiss1 = new EmbedBuilder()
 		.setTitle('Kissy Kissy')
