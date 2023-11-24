@@ -15,7 +15,7 @@ module.exports = {
 		const userId = user?.id
 		const commandUser = interaction.user
 		const commandUserId = commandUser?.id
-
+		let number = Math.floor(Math.random() * 10) + 1;
 		// Slap 1
 		const slap1 = new EmbedBuilder()
 		.setTitle('Get Slapped!')
