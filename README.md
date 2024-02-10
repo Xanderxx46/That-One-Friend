@@ -5,8 +5,8 @@ This bot was made for the JT-99 Discord Bot Competition. Wish me luck. Hosted ve
 # You can also host your version here:
 #### In your terminal run:
 ```bash
-git clone https://github.com/Xanderxx69/jt99botcomp
-cd jt99botcomp
+git clone https://github.com/Xanderxx69/That-One-Friend
+cd That-One-Friend
 ```
 
 #### Install requirements:
