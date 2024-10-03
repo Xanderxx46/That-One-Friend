@@ -1,6 +1,0 @@
-{
-    "apps": [{
-        "name": "That One Friend",
-        "script": "./index.js"
-    }]
-}

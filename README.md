@@ -1,11 +1,14 @@
 # Why the bot was made:
 This bot was made for the JT-99 Discord Bot Competition. Wish me luck. Hosted version [can be found here](https://discord.com/api/oauth2/authorize?client_id=1173829509066276944&permissions=274877959168&scope=bot%20applications.commands). Use `/help` to see all the commands. 
 
+# 10/2/24 Update
+The bot was rewritten to use Buape's new HTTP bot libray called Carbon! Find it [here](https://carbon.buape.com/carbon)
+
 
 # You can also host your version here:
 #### In your terminal run:
 ```bash
-git clone https://github.com/Xanderxx69/That-One-Friend
+git clone https://github.com/Xanderxx46/That-One-Friend
 cd That-One-Friend
 ```
 
@@ -17,20 +20,17 @@ npm install
 
 #### Setting up the .env:
 
-Copy the .env.example and fill in the values needed:
+Run the following commands:
 ```bash
-TOKEN={YOUR_BOTS_TOKEN}
-CLIENT_ID={YOUR_BOTS_APPLICATION_ID}
+npx wrangler secret put CLIENT_ID
+npx wrangler secret put PUBLIC_KEY
+npx wrangler secret put DISCORD_TOKEN
 ```
 
 #### Then do:
 ```bash
-node slash.js
-node index.js
+npm run build
 ```
 
-#### If you wanna use pm2:
-Inside the bots folder run:
-```bash
-pm2 start pm2.json
-```
+#### Other hosting methods:
+Follow the guides here for other hosting methods [here](https://carbon.buape.com/carbon/getting-started)
