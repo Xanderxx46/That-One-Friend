@@ -1,13 +1,11 @@
 {
+"name": "that-one-friend",
     "dependencies": {
-        "@buape/carbon": "https://pkg.pr.new/buape/carbon/@buape/carbon@145",
-        "wrangler": "^3.78.7"
-    },
-    "devDependencies": {
-        "@cloudflare/workers-types": "^4.20240919.0"
+        "discord.js": "^14.6.0",
+        "dotenv": "^16.0.3"
     },
     "scripts": {
-        "build": "wrangler deploy",
-        "tail": "wrangler tail"
+        "start": "node index.js",
+        "slash": "node slash.js"
     }
 }
